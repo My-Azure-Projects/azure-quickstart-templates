@@ -2,13 +2,19 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "serviceName": {
+    "aksClusterAdminUsername": {
       "value": "GEN-UNIQUE"
     },
-    "vnetName": {
+    "aksClusterSshPublicKey": {
+      "value": "GEN-SSH-PUB-KEY"
+    },
+    "vmAdminUsername": {
       "value": "GEN-UNIQUE"
     },
-    "subnetName": {
+    "vmAdminPasswordOrKey": {
+      "value": "GEN-PASSWORD"
+    },
+    "logAnalyticsWorkspaceName": {
       "value": "GEN-UNIQUE"
     }
   }
