@@ -2,11 +2,14 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "adminUsername": {
+    "keyVaultName": {
       "value": "GEN-UNIQUE"
     },
-    "adminPassword": {
-      "value": "GEN-PASSWORD"
+    "cosmosDbId": {
+      "value": "GEN-COSMOS-DB-SP-OBJECTID"
+    },
+    "keyName": {
+      "value": "testkey"
     }
   }
 }
